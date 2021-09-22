@@ -1,10 +1,10 @@
 {
-    "name": "paypal/paypal-checkout-sdk",
+    "name": "shellrent/paypal-restapi-v2-php-sdk",
     "description": "PayPal's PHP SDK for Checkout REST APIs",
     "keywords": ["paypal", "payments", "rest", "sdk", "orders", "checkout"],
     "type": "library",
     "license": "Apache-2.0",
-    "homepage": "http://github.com/paypal/Checkout-PHP-SDK/",
+    "homepage": "http://github.com/shellrent/paypal-restapi-v2-php-sdk/",
     "require": {
         "paypal/paypalhttp": "1.0.1"
     },
