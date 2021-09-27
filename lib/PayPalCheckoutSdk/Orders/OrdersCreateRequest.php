@@ -24,6 +24,10 @@ class OrdersCreateRequest extends HttpRequest
     {
         $this->headers["PayPal-Partner-Attribution-Id"] = $payPalPartnerAttributionId;
     }
+    public function payPalRequestId($payPalRequestId)
+    {
+        $this->headers["PayPal-Request-Id"] = $payPalRequestId;
+    }
     public function prefer($prefer)
     {
         $this->headers["Prefer"] = $prefer;
